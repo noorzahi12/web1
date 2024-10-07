@@ -122,7 +122,6 @@ main {
     margin-right: auto;
     font-size: 20px;
     border-radius: 70px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .hobbies h1 {
@@ -135,7 +134,6 @@ main {
     list-style-type: none;
     padding: 0;
     display: flex; 
-    justify-content: space-around; 
 }
 
 .hobbies ul li {
@@ -153,17 +151,6 @@ main {
     width: 300px; 
     height: auto; 
 }
-
-.hobby-container a {
-    position: absolute; 
-    bottom: 10px; 
-    left: 10px; 
-    color: white; 
-    background-color: rgba(0, 0, 0, 0.5); 
-    padding: 5px; 
-    border-radius: 5px; 
-    text-decoration: none; }
-
 
 .project {
     background-color:rgba(240, 210, 200, 0.9); 
@@ -192,7 +179,7 @@ main {
     margin-right: auto;
     font-size: 20px;
     border-radius: 70px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ 
 }
 
 #guess input[type="text"] {
