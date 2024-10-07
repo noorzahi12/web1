@@ -1,0 +1,231 @@
+header {
+    background-image: url(./noor\ img.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    text-align:center; 
+    padding: 40px; 
+    color:rgb(255, 255, 255);
+    position:relative; 
+    height: 150px;
+}
+
+nav {
+    background-color:rgba(255, 228, 196, 0.642); 
+    text-align: center; 
+    position:absolute; 
+    top: 0; 
+    left: 0;
+    right: 0; 
+    z-index: 10;
+    padding: 15px 0; 
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin: 0 25px; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 30px;
+    padding: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color:rgb(110, 43, 226); 
+    border-radius: 5px; 
+}
+
+.profile-image {
+    width: 130px; 
+    height: 140px;  
+    border-radius: 50%;  
+    object-fit: cover;  
+    border: 2px solid white; 
+    position: absolute;
+    top: 80px;   
+    left: 160px;  
+}
+
+.profile h1 {
+    font-size: 50px; 
+    word-spacing: 20px;
+    color: rgba(255, 255, 255, 0.7); 
+    text-transform: uppercase; 
+    font-weight:normal; 
+    margin-top: 70px; 
+}
+main {
+    margin: 100px;
+    padding: 30px;
+    background-color: rgba(255, 196, 196, 0);
+}
+.about {
+    background-color: rgba(220, 190, 170, 0.9); 
+    color: white; 
+    padding: 20px; 
+    margin-top: 0px; 
+    text-align: left; 
+    width:auto; 
+    max-width: 1000px; 
+    margin-left:auto; 
+    margin-right:auto;
+        font-size: 20px;
+    border-radius: 70px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 20px 0; 
+}
+.future {
+    background-color: rgba(240, 210, 200, 0.9);; 
+    color: white; 
+    padding: 20px; 
+    margin-top: 20px; 
+    text-align: left; 
+    width: auto; 
+    max-width: 1000px; 
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 20px;
+    border-radius: 70px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.future h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 20px 0; 
+}
+
+.hobbies {
+    background-color:rgba(220, 190, 170, 0.9); 
+    color: white; 
+    padding: 20px; 
+    margin-top: 20px; 
+    text-align: center; 
+    width: auto; 
+    max-width: 1000px; 
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 20px;
+    border-radius: 70px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.hobbies h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 20px 0; 
+}
+
+.hobbies ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.hobbies ul li {
+    position: relative; 
+    margin: 20px; 
+}
+
+.hobby-container {
+    position: relative; 
+}
+
+.hobbies ul li img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    height: auto; 
+}
+
+.hobby-container a {
+    position: absolute; 
+    bottom: 10px; 
+    left: 10px; 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 5px; 
+    border-radius: 5px; 
+    text-decoration: none; }
+
+
+.project {
+    background-color:rgba(240, 210, 200, 0.9); 
+    color: white;
+    padding: 20px;
+    margin-top: 20px; 
+    text-align: center; 
+    width: auto;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border-radius: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#guess {
+    background-color: rgba(220, 190, 170, 0.9);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: auto;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border-radius: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#guess input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+#guess input[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(110, 43, 226);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#guess input[type="submit"]:hover {
+    background-color: rgb(90, 35, 200); 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(0, 0%, 27%);
+    color: white;
+    font-size: 16px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}   

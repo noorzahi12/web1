@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor's Website</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#AboutMe">About Me</a></li>
+                <li><a href="#Hobbies">My Favorite Hobbies</a></li>
+                <li><a href="#project">My Project</a></li>
+                <li><a href="#future">My Future Goal</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <img src="./WhatsApp Image 2024-10-06 at 19.31.13_4a4c801b.jpg" alt="Noor" width="80" height="90" class="profile-image">
+            <h1>WELCOME TO NOOR'S WEBSITE</h1>
+        </div>
+    </header>
+    <main>
+   
+        <section class="about" id="AboutMe">
+            <h1>About Me</h1>
+            <p>
+                Hello, my name is Noor Hammadneh, I am 19 years old, from Nablus, Palestine. <br>
+                I am a second-year CAP (Computer Applications) student at An-Najah University. I want to specialize in software engineering and strive to be a good programmer.<br>
+                I prefer fun learning and gaining experience in the job market. I also enjoy adventure and bold experiments.
+            </p>
+        </section>
+        <section class="future" id="future">
+            <h1>My Future Plans</h1>
+            <p id="My future plan">
+                I plan to become a skilled programmer and complete artificial intelligence studies in Spain. <br>
+                I also aim to embrace new adventures and challenges along the way.
+            </p>
+        </section>
+    </main>
+    <section class="hobbies" id="Hobbies">
+        <h1>My Hobbies</h1>
+        <ul>
+            <li>
+                <img src="./phoroovoor.jpeg" alt="Photography" width="300" height="200">
+                <a href="https://www.nlalorphotography.com/blog/taking-up-photography-as-a-hobby" target="_blank">
+                    <b>Photography</b>
+                </a>
+            </li>
+            <li>
+                <img src="./programming-1836330_1280.png" alt="Coding" width="300" height="200">
+                <a href="https://www.indeed.com/career-advice/career-development/hobbies-that-" target="_blank">
+                    <b>Coding</b>
+                </a>
+            </li>
+            <li>
+                <img src="./الخيل.jpg" alt="Horse-riding" width="300" height="200">
+                <a href="https://www.theplaidhorse.com/2024/06/05/beyond-the-saddle-exciting-hobbies" target="_blank">
+                    <b>Horse-riding</b>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="project" class="project">
+        <h1>My Project</h1>
+        <p>Here is a link to one of my previous projects:</p>
+        <a href="https://github.com/noorzahi12/web1.git" target="_blank">My GitHub Project</a>
+    </section>
+
+    <section id="guess">
+        <h1>Guess My Favorite Hobby</h1>
+        <form action="/submit-hobby" method="POST">
+            <label for="hobby">What do you think my favorite hobby is?</label><br>
+            <input type="text" id="hobby" name="hobby" placeholder="Enter your guess"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <br> <br>  <br> <br> <hr> 
+    <br>
+    <footer>
+        <p>&copy; 2024 Noor Hammadneh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
